@@ -10,6 +10,7 @@
         .container { max-width: 800px; margin: auto; padding: 20px; }
         .donate-btn { background: #28a745; color: white; padding: 10px 20px; text-decoration: none; font-size: 20px; border-radius: 5px; }
         .donate-btn:hover { background: #218838; }
+        .donation-section { margin-top: 20px; }
     </style>
 </head>
 <body>
@@ -23,7 +24,15 @@
         <p><b>$50</b> provides a month of tutoring.</p>
         <p><b>$100</b> helps equip a classroom with books and learning materials.</p>
         <p>Join us in making education accessible for all. Every dollar counts!</p>
-        <a href="#" class="donate-btn">Donate Now</a>
+        
+        <div class="donation-section">
+            <h3>Donate Now to Support Our Cause</h3>
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="hosted_button_id" value="A8MBK4R2JJMXE" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+        </div>
     </div>
 </body>
 </html>
